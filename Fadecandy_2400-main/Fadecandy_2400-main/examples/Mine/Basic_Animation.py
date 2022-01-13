@@ -1,4 +1,4 @@
-import opc
+import opcua
 import time
 import random
 
@@ -11,7 +11,7 @@ client.put_pixels(leds)
 #for led in range: #pick out an element: led = (255,255,255)
 
 for led in range(60):   #pick out indeces:led = 0,1,2,,,,,,3,4
-    leds[led] = (255, 90, 0)
+    leds[led] = (255, 0, 0)
     time.sleep(.1)
     client.put_pixels(leds)
 
