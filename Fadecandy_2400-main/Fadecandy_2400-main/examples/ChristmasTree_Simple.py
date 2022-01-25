@@ -15,7 +15,7 @@ for one in range (6,7):   #1 st part
         leds[one+rows *60] = (254,127,156)  #pink
 client.put_pixels(leds)
 sleep(.1)
-
+'''
 for one in range (17,18):
     for rows  in range(0,1):
         leds[one+rows *60] = (254,127,156)
@@ -201,6 +201,6 @@ for one in range (52,55):
 client.put_pixels(leds)
 sleep(.1)
 
-
+'''
 
 
