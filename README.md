@@ -1,6 +1,9 @@
-# README File for python LED FADECANDY Assessment.
+# README File for python LED FADECANDY Assessment
 
 # My_Fadecandy_2022
+
+My project consists of a tiny interesting playing item that people of all ages can enjoy when they have free time or when they are bored. 
+There are nine main types of animations in the graphical user interface.
 
 # Simulator
 
