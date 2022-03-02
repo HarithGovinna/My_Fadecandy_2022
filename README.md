@@ -14,8 +14,9 @@ The user would be able to select the animation as their desire to view the anima
 
 The simulator has been connected using the graphical UI (User Interface) and the Console (Terminal) to produce various animations. 
 
+The user interface has an exit button at the bottom of the GUI. When the user presses the exit button, a message box appears asking "Do you want to exit?". The user can press yes to exit the UI or no to continue in the UI.
 
-
+The sizes of the image buttons and text buttons have been set, so that the user can see them clearly and learn a little about the animation style.
 
 
 # Version 01
