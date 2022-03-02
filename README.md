@@ -3,7 +3,10 @@
 # My_Fadecandy_2022
 
 My project consists of a tiny interesting playing item that people of all ages can enjoy when they have free time or when they are bored. 
-There are nine main types of animations in the graphical user interface.
+There are nine main types of animations in the graphical user interface (Animation Box).
+The user has to select the animation as their desire to view the animation in the simulator. 
+The graphical UI (User Interface) and the Consolve (Terminal) have used to connect the simulator an
+
 
 # Simulator
 
