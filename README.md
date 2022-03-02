@@ -11,11 +11,11 @@ The simulator provided has 360 leds arranged in a grid pattern of 6 rows with 60
 opc.Client() - Sets up a client object that will establish communication between Python and a fadecandy server.
 
 Required argument: an IP or localhost with correct port for the server.
-
+```
 .put_pixels(list) - places a list of tuples with rgb values to the fadecandy server to be displayed.
 
 Format: [(R_value, G_value, B_value)]. Each tuple element in the list represents a single led.
-
+```
 
 There are a few more methods for ensuring connection and disconnect procedures, but they will not be needed with the simulator.
 
