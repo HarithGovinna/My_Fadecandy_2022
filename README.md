@@ -29,7 +29,9 @@ from tkinter import Frame            -  Rectangular areas in the screen to organ
 from PIL import Image, ImageTk       -  Import image library
 from tkinter import messagebox       -  Import messagebox library
 ~~~
-- Create the title for the GUI as "Animation Box". 
+
+- Create the program title for the GUI as "Animation Box". 
+- Create a "Animation Box" label for the GUI's header.
 
 # Simulator
 
