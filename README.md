@@ -21,7 +21,9 @@ The sizes of the image buttons and text buttons have been set, so that the user 
 
 
 # Version 01
--
+
+- To begin, import all of the necessary libraries with a geometry of ("500*600+0+0") to develop the graphical user interface.
+- 
 
 # Simulator
 
