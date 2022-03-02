@@ -19,6 +19,8 @@ The user interface has an exit button at the bottom of the GUI. When the user pr
 The sizes of the image buttons and text buttons have been set, so that the user can see them clearly and learn a little about the animation style.
 
 
+
+
 # Version 01
 -
 
