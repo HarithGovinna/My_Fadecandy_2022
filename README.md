@@ -33,6 +33,19 @@ from tkinter import messagebox       -  Import messagebox library
 - Create the program title for the GUI as "Animation Box". 
 - Create a "Animation Box" label for the GUI's header.
 
+# Version 02
+
+- For each animation, created Eight image buttons and one text button based on the animations that display in the simulator.
+- Created an exit button at the bottom of the GUI to destroy the process.
+~~~
+
+def iExit(self):                                                      - Defining the exit button
+  iExit=messagebox.askyesno("Animation Box","Do you want to Exit?")   - Message box 
+  if iExit>0:                                                         - If the exit greater than zero, the result value is true else it's false. 
+    root.destroy()                                                    - Destroy the root connection for user interface
+    return                                                            - Returning the result
+ ~~~
+
 # Simulator
 
 The simulator provided has 360 leds arranged in a grid pattern of 6 rows with 60 leds each.
