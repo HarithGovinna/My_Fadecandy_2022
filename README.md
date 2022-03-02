@@ -1,4 +1,4 @@
-# README File for python LED FADECANDY assessment.
+# README File for python LED FADECANDY Assessment.
 
 # My_Fadecandy_2022
 
