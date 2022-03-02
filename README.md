@@ -38,13 +38,26 @@ from tkinter import messagebox       -  Import messagebox library
 - For each animation, created Eight image buttons and one text button based on the animations that display in the simulator.
 - Created an exit button at the bottom of the GUI to destroy the process.
 ~~~
-
 def iExit(self):                                                      - Defining the exit button
   iExit=messagebox.askyesno("Animation Box","Do you want to Exit?")   - Message box 
-  if iExit>0:                                                         - If the exit greater than zero, the result value is true else it's false. 
+  if iExit>0:                                                         - If the exit greater than zero, the result value is true else it's false 
     root.destroy()                                                    - Destroy the root connection for user interface
     return                                                            - Returning the result
  ~~~
+- Completed the process of front end developmentation. (Graphical User Interface)
+
+# Version 03
+
+- Created the front-end developing, back-end developing and server connection using opc libraries to create different animations.
+~~~
+LIBRARIES
+import opc                             - import OPC library           
+from time import sleep                 - import sleep library from time
+import colorsys                        - Import colorsys library
+import random                          - Import random library
+~~~
+- 
+
 
 # Simulator
 
