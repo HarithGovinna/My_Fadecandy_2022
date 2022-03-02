@@ -1,6 +1,6 @@
 # README File for Python LED FADECANDY Assessment
 
-# My_Fadecandy_2022
+# My Fadecandy 2022
 
 My project consists of a tiny interesting playing item that people of all ages can enjoy when they have free time or when they are bored. 
 
@@ -19,11 +19,17 @@ The user interface has an exit button at the bottom of the GUI. When the user pr
 The sizes of the image buttons and text buttons have been set, so that the user can see them clearly and learn a little about the animation style.
 
 
-
 # Version 01
 
-- To begin, import all of the necessary libraries with a geometry of ("500*600+0+0") to develop the graphical user interface.
-- 
+- To begin, import all of the necessary libraries with a geometry of ("500*600+0+0") to develop the Graphical User Interface (GUI).
+~~~
+LIBRARIES
+from tkinter import *                -  Import all tk libraries to create user interface
+from tkinter import Frame            -  Rectangular areas in the screen to organize the layout
+from PIL import Image, ImageTk       -  Import image library
+from tkinter import messagebox       -  Import messagebox library
+~~~
+- Create the title for the GUI as "Animation Box". 
 
 # Simulator
 
