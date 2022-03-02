@@ -19,6 +19,11 @@ The user interface has an exit button at the bottom of the GUI. When the user pr
 The sizes of the image buttons and text buttons have been set, so that the user can see them clearly and learn a little about the animation style.
 
 
+# OPC Simulator
+
+- The OPC simulator provided has 360 leds arranged in a grid pattern of 6 rows with 60 leds each.
+
+
 # Version 01
 
 - To begin, import all of the necessary libraries with a geometry of ("500*600+0+0") to develop the Graphical User Interface (GUI).
@@ -56,12 +61,8 @@ from time import sleep                 - import sleep library from time
 import colorsys                        - Import colorsys library
 import random                          - Import random library
 ~~~
-- 
+- Define a functions for all the animations and give the command to the button to run in the opc simulator.
 
-
-# Simulator
-
-The simulator provided has 360 leds arranged in a grid pattern of 6 rows with 60 leds each.
 
 # Basic commands
 
