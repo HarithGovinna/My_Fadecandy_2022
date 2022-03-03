@@ -22,7 +22,7 @@ The sizes of the image buttons and text buttons have been set, so that the user 
 # OPC Simulator
 
 - The OPC simulator has provided 360 leds arranged in a grid pattern of 6 rows with 60 leds. 
-- The output of each code is displaying in the simulator  #
+- The output of each code is displaying in the simulator  
 - The colours of the simulator frame can be modified as desired by the user.
 
 opc.Client() - Sets up a client object that will establish communication between Python and a fadecandy server.
@@ -71,12 +71,18 @@ from time import sleep                 - import sleep library from time
 import colorsys                        - Import colorsys library
 import random                          - Import random library
 ~~~
-- Define a functions for first two animations (Snake, christmas tree animations)
-- Snake going forward
-- Christmas tree develop the code using an array list
-- Once the button ptress the code is running in the simulator
-- Updated the github with every changes
-- Add comments
+
+- Define the functions and developed the code for the first two animations. (Snake animation and christmas tree animation)
+- The code is connected with the User Interface, and when the user presses the button, the animation appears in the simulator.
+```
+def Snake(self): 
+def Tree(self): 
+```
+
+- Create the code that will allow the snake to go forward.
+- Create the code for the christmas tree to display five times in the simulator using an array list. 
+- The code begins to run in the opc simulator once the image button is pressed.
+- Add comments to the code to get a better understanding of the code.
 
 # Version 04
 
