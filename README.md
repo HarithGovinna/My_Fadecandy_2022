@@ -8,7 +8,7 @@ There are nine main types of animations in the graphical user interface (Animati
 
 There are eight animations with image buttons; once the user click the button, the simulator gives an appealing animation for the user.
 
-At the end, there is a 'Test Me' button to see whether the coronavirus, which isexceedingly harmful these days, is positive or negative. The result is shown in the console after we press the button, so once the user enter the body temperature, cough days, and fever days, the simulator displays the output with a beautiful animation.
+At the end, there is a 'Test Me' button to see whether the coronavirus, which is exceedingly harmful these days, is positive or negative. The result is shown in the console after we press the button, so once the user enter the body temperature, cough days, and fever days, the simulator displays the output with a beautiful animation.
 
 The user would be able to select the animation as their desire to view the animation in the simulator.
 
