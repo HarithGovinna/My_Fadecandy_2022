@@ -99,15 +99,16 @@ for i in range(2):                     - Terminate the christmas tree 3 times wi
   client.put_pixels(leds)              - Draw a LED pixel in the frame 
   sleep(0.5)  
 ```
-- 
-- Compltede the code by connecting the GUI, once we presss the button the code is simulating in the simulator
-- Github uploaed
-- Add comments
+- Connect the GUI to the code, and then press the button to simulate the code in the simulator.
+- Add comments to the code.
+- Uploaded the code to the github.
 
 # Version 05
 
-- Iteration , blinking, mid reverse code developed
-- Connected with GUI to run in the simulator
+- Developed the code for iterations, blinking, and mid reverse.
+- The simulator gives an output to display some colours in the simulator and 
+- 
+- Connected with GUI to run in the simulator.
 - Snake, combined a new code in the snake code, once the snake code finish like to turn the simulaort into green
 - Added an another flag in the right side of the simulator and make both of them to constatntly light up by a looping
 - Added comments (every version)
