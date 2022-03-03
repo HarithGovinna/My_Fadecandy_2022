@@ -63,7 +63,16 @@ from time import sleep                 - import sleep library from time
 import colorsys                        - Import colorsys library
 import random                          - Import random library
 ~~~
-- Define a functions for all the animations and give the command to the button to run in the opc simulator.
+- Define a functions for first two animations (Snake, christmas tree animations)
+- Snake going forward
+- Christmas tree develop the code using an array list
+- Once the button ptress the code is running in the simulator
+
+# Version 04
+
+- Buddhist flag, star blink normally, random dark going forward and backward printed
+- Develop the chritsmas tree to constantly light up with different colour
+- Compltede the code by connecting the GUI, once we presss the button the code is simulating in the simulator
 - 
 
 
