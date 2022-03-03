@@ -95,9 +95,9 @@ command=self.Tree
 - To transverse ahead and backward, a random dark code was developed. In the beginning, the simulator is darkening, and it is ideally increase the contrast in the display.
 - Developed the christmas tree to lit up with five different colours. (Red, Green, Violet, Yellow, Blue, Pink)
 ```
-for i in range(2):                     - Terminate the christmas tree 4 times with 6 different colours (Mentioned above)
-client.put_pixels(leds)                - Draw a LED pixel in the frame 
-sleep(0.5)  
+for i in range(2):                     - Terminate the christmas tree 3 times with 6 different colours (Mentioned above)
+  client.put_pixels(leds)              - Draw a LED pixel in the frame 
+  sleep(0.5)  
 ```
 - 
 - Compltede the code by connecting the GUI, once we presss the button the code is simulating in the simulator
