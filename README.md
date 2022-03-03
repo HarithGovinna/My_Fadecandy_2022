@@ -14,14 +14,16 @@ The user would be able to select the animation as their desire to view the anima
 
 The simulator has been connected using the graphical UI (User Interface) and the Console (Terminal) to produce various animations. 
 
-The user interface has an exit button at the bottom of the GUI. When the user presses the exit button, a message box appears asking "Do you want to exit?". The user can press yes to exit the UI or no to continue in the UI.
+The user interface has an exit button at the bottom of the GUI. When the user presses the exit button, a message box appears asking "Do you want to exit?". The user can press yes to exit the UI or no to continue in the GUI.
 
 The sizes of the image buttons and text buttons have been set, so that the user can see them clearly and learn a little about the animation style.
 
 
 # OPC Simulator
 
-- The OPC simulator provided has 360 leds arranged in a grid pattern of 6 rows with 60 leds each.
+- The OPC simulator has provided 360 leds arranged in a grid pattern of 6 rows with 60 leds. 
+- The output of each code is displaying in the simulator  #
+- The colours of the simulator frame can be modified as desired by the user.
 
 
 # Version 01
@@ -62,6 +64,7 @@ import colorsys                        - Import colorsys library
 import random                          - Import random library
 ~~~
 - Define a functions for all the animations and give the command to the button to run in the opc simulator.
+- 
 
 
 # Basic commands
