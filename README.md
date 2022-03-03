@@ -67,14 +67,42 @@ import random                          - Import random library
 - Snake going forward
 - Christmas tree develop the code using an array list
 - Once the button ptress the code is running in the simulator
+- Updated the github with every changes
 
 # Version 04
 
 - Buddhist flag, star blink normally, random dark going forward and backward printed
 - Develop the chritsmas tree to constantly light up with different colour
 - Compltede the code by connecting the GUI, once we presss the button the code is simulating in the simulator
+
+# Version 05
+
+- Iteration , blinking, mid reverse code developed
+- Connected with GUI to run in the simulator
+- Snake, combined a new code in the snake code, once the snake code finish like to turn the simulaort into green
+- Added an another flag in the right side of the simulator and make both of them to constatntly light up by a looping
+- Added comments (every version)
+
+# Version 06
+
+- Added a test me button to check the coronavirus
+- Once the user click the button, the temp, fever, and cough askig questions in the console, once the user input the values it gives a result saying that its positie o     negative
+- If the cough >  (enter numbers)
+- While the result is displaying in the terminal, the opc simulator also gives the outpu as positive or ngative with a beautiful animation.
+
+# Version 07
+
 - 
 
+
+
+
+# Version 08
+
+- Added demo and explanation video
+- Added a new branch in the github as master - the final code and the 
+- Spelling correction (commentsm readme)
+- 
 
 # Basic commands
 
