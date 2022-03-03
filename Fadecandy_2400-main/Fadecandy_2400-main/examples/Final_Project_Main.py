@@ -143,7 +143,7 @@ class AnimationBox:                         #Define a class
                 leds[led+7] = (255,140,0)
 
                 client.put_pixels(leds)            #Draw a LED pixel in the frame.
-                sleep(0.03)                        #Sleep by 0.03 seconds
+                sleep(0.02)                        #Sleep by 0.02 seconds
                 led = led + 1                      #Counting the number of turns in the while loop.
 
             for led in range (352):               #Run the python in the LED range of 352
@@ -158,7 +158,7 @@ class AnimationBox:                         #Define a class
                 leds[352-led+7] = (255,140,0)
 
                 client.put_pixels(leds)            #Draw a LED pixel in the frame.
-                sleep(0.03)                        #Sleep by 0.03 seconds
+                sleep(0.02)                        #Sleep by 0.02 seconds
                 led = led + 1                      #Counting the number of turns in the while loop.
 
 
@@ -167,7 +167,7 @@ class AnimationBox:                         #Define a class
         while led >= 360:                     #While led is greater than or equal 
             for rows in range(6):             #Number of rows in the range of 6 using a for loop
                 leds[led + rows * 60] = (0,255,0)   #Implementing the colour || Calculation part
-                sleep(0.05)                   #Sleep by 0.05 seconds
+                sleep(0.02)                   #Sleep by 0.02 seconds
                 client.put_pixels(leds1)      #Draw a LED pixel in the frame.
                 led = led - 1                 #Counting the number of turns in the while loop.
 
@@ -175,7 +175,7 @@ class AnimationBox:                         #Define a class
         while led >= 0:                        #While led is greater than or equal zero
             for rows in range(6):              #Number of rows in the range of 6 using a for loop
                 leds1[led + rows * 60] = (0,255,0)
-                sleep(0.05)
+                sleep(0.02)
                 client.put_pixels(leds1)
                 led = led - 1
 
@@ -186,7 +186,7 @@ class AnimationBox:                         #Define a class
                 for rows in range(6):
                     if led <96:                      #If the led is less than 96
                         leds1[led - rows * 60] = (0,255,0)  
-                        sleep(0.05)
+                        sleep(0.02)
                         client.put_pixels(leds1)
                         led = led + 1              #Counting the number of turns in the while loop.
 
@@ -198,15 +198,15 @@ class AnimationBox:                         #Define a class
         time = 0                     # Time = 0
 
         for i in range(100):                                        #Range of the for loop is 100
-            time += 0.4                                                #Adding 0.4 for each iteration.
+            time += 0.4                                             #Adding 0.4 for each iteration.
             Light = int(min(1, 1.25 + math.sin(time)) * 255)        #Mathematical calculation part to blink the LED frame       
             Block = [ (Light, Light, Light) ] * LEDs                #Blink the frame in white colour
             client.put_pixels(Block)
-            sleep(0.03) 
+            sleep(0.02) 
         
 
         
-# =========================== TREE ==========================================#
+#============================ TREE ==========================================#
 
     def Tree(self):                             #Defining Tree self function
         leds = [(0,0,0)]*360                    #Colour of LED frame for the variable as leds (White)   || Defining variables for tree function as leds, leds1, leds2, leds3, leds4, leds5
@@ -221,13 +221,12 @@ class AnimationBox:                         #Define a class
         for i, item in enumerate(Tree_positions1):                                          #Implementing first tree list to the python's enumerate() to get a counter and the value from the iterable at the same time.
             for one in range(item[0], item[1]):                                             #Postions of the fisrt column in the Tree_positions1 
                 for row in range(item[2], item[3]):                                         #Postions of the fisrt row in the Tree_positions1                                      
-                    leds[one+row*60] = (255,0,0)         #Red     ||   Implement the colours for the design
+                    leds[one+row*60]  = (255,0,0)        #Red     ||   Implement the colours for the design
                     leds1[one+row*60] = (0,255,0)        #Green
                     leds2[one+row*60] = (148,0,211)      #Violet
                     leds3[one+row*60] = (255, 255, 0)    #Yellow
                     leds4[one+row*60] = (0,0,255)        #Blue
-                    leds5[one+row*60] = (254,127,156)    #Pink
-                    
+                    leds5[one+row*60] = (254,127,156)    #Pink 
 
                 
         Tree_positions2 = [[5,6,7,8,1,2], [16,17,18,19,1,2], [28,29,30,31,1,2], [40,41,42,43,1,2], [52,53,54,55,1,2]]      #Make a variable as Tree_positions2 to give the first line led position by an array list 
@@ -404,7 +403,7 @@ class AnimationBox:                         #Define a class
             for rows in range(3,6):               #Number of rows in the range of 6 using a for loop  || Last three rows reversed (right to left)
                 leds[59-led + rows*60] = (20,200,random.randint(127,255))    #Returns an integer number selected element from the specified range (Randint).  || Specify the colour
             client.put_pixels(leds)               #Draw a LED pixel in the frame 
-            sleep(0.05)                            #Sleep by 0.1 seconds
+            sleep(0.05)                           #Sleep by 0.1 seconds
             led = led + 1                         #Counting the number of turns in the while loop.
 
         numStrings = 8                              #Make a varible as numStrings and then it equal to 8.
@@ -551,7 +550,7 @@ class AnimationBox:                         #Define a class
 
 #=========================== Mid Reverse =========================#
 
-    def Mid_Reverse(self):                            #Defining Mid Reverse self function
+    def Mid_Reverse(self):                         #Defining Mid Reverse self function
         
         for i in range(1):                         #Number of rows in the range of 3 using a for loop. 
             led = 0                                #Variable led equals to zero.
@@ -562,9 +561,9 @@ class AnimationBox:                         #Define a class
                     leds[29-led + rows*60] = led_color              #Reversing animation from middle to starting points.
                 for rows in range(6):                               #Number of rows in the range of 6 using a for loop. 
                     leds[30+led + rows* 60] = led_color             #Scroll the LED code from starting points to the middle 
-                client.put_pixels(leds)                           #Draw a LED pixel in the frame. 
-                sleep(0.05)                                        #Sleep by 0.5 seconds
-                led = led + 1                                     #Counting the number of turns in the while loop
+                client.put_pixels(leds)                             #Draw a LED pixel in the frame. 
+                sleep(0.05)                                         #Sleep by 0.5 seconds
+                led = led + 1                                       #Counting the number of turns in the while loop
 
             led = 0
             while led<=30:                       #While number of LEDs less than or equal 30, the loop is terminating else it stops. 
