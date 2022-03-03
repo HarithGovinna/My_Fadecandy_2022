@@ -25,6 +25,14 @@ The sizes of the image buttons and text buttons have been set, so that the user 
 - The output of each code is displaying in the simulator  #
 - The colours of the simulator frame can be modified as desired by the user.
 
+opc.Client() - Sets up a client object that will establish communication between Python and a fadecandy server.
+
+Required argument: an IP or localhost with correct port for the server.
+
+To connect to the simulator, use localhost with port 7890 when setting up your fadecandy instance in Python: 
+```
+client = opc.Client('localhost:7890')
+```
 
 # Version 01
 
@@ -68,12 +76,15 @@ import random                          - Import random library
 - Christmas tree develop the code using an array list
 - Once the button ptress the code is running in the simulator
 - Updated the github with every changes
+- Add comments
 
 # Version 04
 
 - Buddhist flag, star blink normally, random dark going forward and backward printed
 - Develop the chritsmas tree to constantly light up with different colour
 - Compltede the code by connecting the GUI, once we presss the button the code is simulating in the simulator
+- Github uploaed
+- Add comments
 
 # Version 05
 
@@ -89,15 +100,23 @@ import random                          - Import random library
 - Once the user click the button, the temp, fever, and cough askig questions in the console, once the user input the values it gives a result saying that its positie o     negative
 - If the cough >  (enter numbers)
 - While the result is displaying in the terminal, the opc simulator also gives the outpu as positive or ngative with a beautiful animation.
+- Github uploaed
+- Add comments
 
 # Version 07
 
 - Added an animation for the snake to reverse (direction) the snake.
 - added an animation to Reduced the brightness the of the frame in snake
 - Added an green heart in the middle of the simulator to animate it and loop the whole animation to animate it three times.
+- Number of rows in the range of 6 using a for loop  || Last three rows reversed (right to left) in star
+- Changed the animation into rainbow colours. once the image button press comes up the rainbow colours and then the other animation is displaying in the simulator
+- Format: [(R_value, G_value, B_value)]. Each tuple element in the list represents a single led.
+- Changed the colours of the animation in the blinking animation
+- Develop the mid reverse the animation, as at the end it reversing the in the by seperating it only for three rows
+- Overall changed the animations colours for high contrast
+- Github uploaed
+- Add comments
 - 
-
-
 
 
 # Version 08
@@ -111,36 +130,7 @@ import random                          - Import random library
 - Added comments all most all the lines to give a clear understanding for the code
 - Finalised the code
 
-# Basic commands
 
-opc.Client() - Sets up a client object that will establish communication between Python and a fadecandy server.
 
-Required argument: an IP or localhost with correct port for the server.
-```
-.put_pixels(list) - places a list of tuples with rgb values to the fadecandy server to be displayed.
 
-Format: [(R_value, G_value, B_value)]. Each tuple element in the list represents a single led.
-```
 
-There are a few more methods for ensuring connection and disconnect procedures, but they will not be needed with the simulator.
-
-###### Notes
-
-To connect to the simulator, use localhost with port 7890 when setting up your fadecandy instance in Python: 
-```
-client = opc.Client('localhost:7890')
-```
-
-When not using a loop, perform .put_pixels() twice to avoid interpolation issues:
-```
-client.put_pixels(list)
-client.put_pixels(list)
-```
-
-It's highly recommended to perform any colour fading in an HSV space as opposed to RGB. Refer to the '4_hsv_rainbow.py' and 'hsv_rainbow_rolling.py' examples. Keep Value (saturation) max to begin with, play with the value for more pastel, washed out colours.  
-
-## Other files
-
-- 60by6.jpg - use this as a template to easily plan templates and check led numbers.
-- colour spaces.pdf - basic information on the difference between RGB and HSV. 
-- Fadecandy exercises.pdf - some simple tasks to get you started.
