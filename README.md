@@ -92,7 +92,9 @@ import random                          - Import random library
 
 # Version 07
 
-- 
+- Added an animation for the snake to reverse (direction) the snake.
+- added an animation to Reduced the brightness the of the frame in snake
+- Added an green heart in the middle of the simulator to animate it 
 
 
 
@@ -106,7 +108,7 @@ import random                          - Import random library
 - Better formatting of code
 - Removed unnecessary lines from the main code to shortened
 - Added comments all most all the lines to give a clear understanding for the code
-- 
+- Finalised the code
 
 # Basic commands
 
