@@ -397,6 +397,7 @@ class AnimationBox:                         #Define a class
     def Blink(Self):                                #Defining Star self function
 
         led = 0
+        leds =[(0,0,0)]*360 
         while led<60:                             #While the turns less than 60, the loop is terminating || scroll all rows at the same time
             for rows in range(3):                 #Number of rows in the range of 6 using a for loop  || First three rows left to right
                 leds[led + rows*60] = (10,100,random.randint(127,255))      #Returns an integer number selected element from the specified range (Randint).  || Specify the colour
