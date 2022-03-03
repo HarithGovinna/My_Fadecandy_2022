@@ -100,8 +100,12 @@ import random                          - Import random library
 # Version 08
 
 - Added demo and explanation video
-- Added a new branch in the github as master - the final code and the 
+- Added a new branch in the github as Harith_Madhushan - the final code and the images commited to identify easily
+- Main branch(Default branh) to check the consistency of the final code
 - Spelling correction (commentsm readme)
+- Better formatting of code
+- Removed unnecessary lines from the main code to shortened
+- Added comments all most all the lines to give a clear understanding for the code
 - 
 
 # Basic commands
