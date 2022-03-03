@@ -73,12 +73,15 @@ import random                          - Import random library
 ~~~
 
 - Define the functions and developed the code for the first two animations. (Snake animation and christmas tree animation)
-- The code is connected with the User Interface, and when the user presses the button, the animation appears in the simulator.
 ```
 def Snake(self): 
 def Tree(self): 
 ```
-
+- The code is connected with the User Interface, and when the user presses the button, the animation appears in the simulator.
+```
+command=self.Snake   - The command for establishing a link between the GUI and the code.
+command=self.Tree
+```
 - Create the code that will allow the snake to go forward.
 - Create the code for the christmas tree to display five times in the simulator using an array list. 
 - The code begins to run in the opc simulator once the image button is pressed.
@@ -86,8 +89,17 @@ def Tree(self):
 
 # Version 04
 
-- Buddhist flag, star blink normally, random dark going forward and backward printed
-- Develop the chritsmas tree to constantly light up with different colour
+- The next threee animations were developed in the code. (Flag, Star, Random dark)
+- The Buddhist flag was designed to be displayed only once in the simulator.
+- The star code was programmed to blink four times in the simulator at specific locations.
+- To transverse ahead and backward, a random dark code was developed. In the beginning, the simulator is darkening, and it is ideally increase the contrast in the display.
+- Developed the christmas tree to lit up with five different colours. (Red, Green, Violet, Yellow, Blue, Pink)
+```
+for i in range(2):                     - Terminate the christmas tree 4 times with 6 different colours (Mentioned above)
+client.put_pixels(leds)                - Draw a LED pixel in the frame 
+sleep(0.5)  
+```
+- 
 - Compltede the code by connecting the GUI, once we presss the button the code is simulating in the simulator
 - Github uploaed
 - Add comments
