@@ -109,7 +109,7 @@ for i in range(2):                     - Terminate the christmas tree 3 times wi
 - Developed the code for iterations, blinking, and mid reverse.
 - The simulator outputs a display that changes colours in the simulator, and then there's an animation that reverses the display from the simulator's centre and finally a white LED is moving from starting point to the ending point.
 - The blinking code is used to change the simulator's colour to purple, and a white LED appears one after the purple LED, and it dims as the length of the second row grows longer, and the white colour LED dims from the first line.
-- The mid reverse code cfreated to scrolls from the simulator's midpoint to the simulator's finishing and starting location with different colours.
+- The mid reverse code created to scrolls from the simulator's midpoint to the simulator's finishing and starting location with different colours.
 - Connected all the animations with GUI to run in the simulator.
 - The snake code was developed, and further animations were added to the code, as the simulator turned green once the snake code was completed.
 - Another flag was added to the simulator's right side, and both of them were made to consistently light up by a looping animation.
@@ -147,9 +147,9 @@ To finalise all the codes:
 
 - Developed the code to create a green heart in the middle of the simulator, and looped the entire animation three times. 
 
-- Developed the star animation code, which scrolls the first three rows and the final three rows seperately from left to right with two different colours using a loop as the user presses the star image button.
+- Developed the star animation code, which scrolls the first three rows and the final three rows seperately from left to right with two different colours using a loop, then the user presses the star image button.
 
-- The random dark animation has been changed to rainbow colours. After pressing the image button, the rainbow colours appear, followed by the other animation in the simulator.
+- The random dark animation has been changed to rainbow colours. After pressing the image button, the rainbow colours appear, according to the developed animation in the simulator.
 - Format: [(R_value, G_value, B_value)]. Each tuple element in the list represents a single led.
 
 - By following the same thing from bottom to top, reversed the blinking animation.
@@ -165,10 +165,12 @@ To finalise all the codes:
 To finalise the assessment:
 - A demo and explanation video have been added.
 - Added a new branch to github called Harith_Madhushan, which contains the final code and graphics for easy identification.
-- The main branch(Default branh) is to check the consistency of the final code in the Github.
+- The main branch(Default branch) is to check the consistency of the final code in the Github.
 - Spelling correctionin the readme file and in the comments in the python code.
 - Developed the code and finalised for better formatting of code.
-- Removed unnecessary lines from the main code to be shortened.
+- Removed unnecessary lines from the main code to make it in an order.
 - Added comments all most all the lines to give a clear understanding for the code.
 - Finalised the code.
 - Uploaded all the codes into the github.
+
+
