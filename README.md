@@ -106,12 +106,14 @@ for i in range(2):                     - Terminate the christmas tree 3 times wi
 # Version 05
 
 - Developed the code for iterations, blinking, and mid reverse.
-- The simulator gives an output to display some colours in the simulator and 
-- 
-- Connected with GUI to run in the simulator.
-- Snake, combined a new code in the snake code, once the snake code finish like to turn the simulaort into green
-- Added an another flag in the right side of the simulator and make both of them to constatntly light up by a looping
-- Added comments (every version)
+- The simulator outputs a display that changes colours in the simulator, and then there's an animation that reverses the display from the simulator's centre and finally a white LED is moving from starting point to the ending point.
+- The blinking code is used to change the simulator's colour to purple, and a white LED appears one after the purple LED, and it dims as the length of the second row grows longer, and the white colour LED dims from the first line.
+- The mid reverse code cfreated to scrolls from the simulator's midpoint to the simulator's finishing and starting location with different colours.
+- Connected all the animations with GUI to run in the simulator.
+- The snake code was developed, and further animations were added to the code, as the simulator turned green once the snake code was completed.
+- Another flag was added to the simulator's right side, and both of them were made to consistently light up by a looping animation.
+- Added comments to the codes.
+- Uploaded all the codes into the github.
 
 # Version 06
 
@@ -131,6 +133,7 @@ for i in range(2):                     - Terminate the christmas tree 3 times wi
 - Changed the animation into rainbow colours. once the image button press comes up the rainbow colours and then the other animation is displaying in the simulator
 - Format: [(R_value, G_value, B_value)]. Each tuple element in the list represents a single led.
 - Changed the colours of the animation in the blinking animation
+- Reversing the blinking animation
 - Develop the mid reverse the animation, as at the end it reversing the in the by seperating it only for three rows
 - Overall changed the animations colours for high contrast
 - Github uploaed
