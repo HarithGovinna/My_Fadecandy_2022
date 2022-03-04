@@ -18,6 +18,7 @@ The user interface has an exit button at the bottom of the GUI. When the user pr
 
 The sizes of the image buttons and text buttons have been set, so that the user can see them clearly and learn a little about the animation style.
 
+Python version 3.8 or 3.10 can be used to run the code in the opc simulator
 
 # OPC Simulator
 
@@ -134,39 +135,41 @@ for i in range(2):                     - Terminate the christmas tree 3 times wi
   print(" You are Negetive with Corona Virus")
  ```
 
-- While the result is displaying in the terminal, the opc simulator also gives the outpu as positive or ngative with a beautiful animation.
-- Github uploaed
-- Add comments
+- The opc simulator also gives the output as positive or ngative with a beautiful animation as the result is displayed in the terminal.
+- Added comments to the codes.
+- Uploaded all the codes into the github.
 
 # Version 07
 
-- Added an animation for the snake to reverse (direction) the snake.
-- added an animation to Reduced the brightness the of the frame in snake
-- Added an green heart in the middle of the simulator to animate it and loop the whole animation to animate it three times.
-- Number of rows in the range of 6 using a for loop  || Last three rows reversed (right to left) in star
-- Changed the animation into rainbow colours. once the image button press comes up the rainbow colours and then the other animation is displaying in the simulator
-- Format: [(R_value, G_value, B_value)]. Each tuple element in the list represents a single led.
-- Changed the colours of the animation in the blinking animation
-- Reversing the blinking animation
-- Develop the mid reverse the animation, as at the end it reversing the in the by seperating it only for three rows
-- Overall changed the animations colours for high contrast
-- Github uploaed
-- Add comments
-- 
+To finalise all the codes:
+- Created a code to reverse the snake animation once it reach to the end poisition of the simulator.
+- An animation was added to snake animation, and reduced the brightness and made the frame flash a few times.
 
+- Developed the code to create a green heart in the middle of the simulator, and looped the entire animation three times. 
+
+- Developed the star animation code, which scrolls the first three rows and the final three rows seperately from left to right with two different colours using a loop as the user presses the star image button.
+
+- The random dark animation has been changed to rainbow colours. After pressing the image button, the rainbow colours appear, followed by the other animation in the simulator.
+- Format: [(R_value, G_value, B_value)]. Each tuple element in the list represents a single led.
+
+- By following the same thing from bottom to top, reversed the blinking animation.
+
+- Develop the mid-reverse animation, since it reverse by seperating first and last three rows with an attractive colour. 
+
+- Overall, the animation's colours were altered to make it more contrasty.
+- Added comments to the codes.
+- Uploaded all the codes into the github.
 
 # Version 08
 
-- Added demo and explanation video
-- Added a new branch in the github as Harith_Madhushan - the final code and the images commited to identify easily
-- Main branch(Default branh) to check the consistency of the final code
-- Spelling correction (commentsm readme)
-- Better formatting of code
-- Removed unnecessary lines from the main code to shortened
-- Added comments all most all the lines to give a clear understanding for the code
-- Finalised the code
-
-
-
-
+To finalise the assessment:
+- A demo and explanation video have been added.
+- Added a new branch to github called Harith_Madhushan, which contains the final code and graphics for easy identification.
+- The main branch(Default branh) is to check the consistency of the final code in the Github.
+- Spelling correctionin the readme file and in the comments in the python code.
+- Developed the code and finalised for better formatting of code.
+- Removed unnecessary lines from the main code to be shortened.
+- Added comments all most all the lines to give a clear understanding for the code.
+- Finalised the code.
+- Uploaded all the codes into the github.
 
