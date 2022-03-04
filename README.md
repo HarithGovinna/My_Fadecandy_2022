@@ -117,9 +117,23 @@ for i in range(2):                     - Terminate the christmas tree 3 times wi
 
 # Version 06
 
-- Added a test me button to check the coronavirus
-- Once the user click the button, the temp, fever, and cough askig questions in the console, once the user input the values it gives a result saying that its positie o     negative
-- If the cough >  (enter numbers)
+- As the final animation, added a test me button to the user interface to check the possibity of coronavirus.
+- When the user click the button, there some questions appears in the console about to know the temperature, fever days and the cough days.
+- When the user inputs the data in the console, the console returns a result indicating whether the coronavirus is positive or negative.
+```
+ if (temp>37 and fever>3 and cough>3):            -If temp is greater than 37, fever greater than 3 and dry cough greater than 3, the final printing statment is satisfying 
+   print("Your Body tempreature is " + str(temp))
+   print("Days of Fever is :" + str(fever))
+   print("Days of Dry cough is:" + str(cough))
+   print("You are positive with Coroana Virus")
+            
+ else:                                                      #If if condition is not satisfying.
+  print("Your Body tempreature is " +str(temp))
+  print("Days of Fever is :" +str(fever))
+  print("Days of Dry cough is:" + str(cough))
+  print(" You are Negetive with Corona Virus")
+ ```
+
 - While the result is displaying in the terminal, the opc simulator also gives the outpu as positive or ngative with a beautiful animation.
 - Github uploaed
 - Add comments
